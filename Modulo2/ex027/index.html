@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @font-face {
+            font-family: "OldLondon";
+            src: url(OldLondon.ttf);
+        }
+       
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: auto;
+            height: 100%;
+            width: 100%;
+            margin-left: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px 10px;
+            margin: auto;
+        }
+        nav{
+            background-color: rgb(19, 80, 19);
+            padding: 3px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.384);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0px 0px 0px 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px 0px;
+            border-radius: 10px 20px 40px 20px;
+            box-shadow: 2px 3px 7px 2px black;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            text-align: center;
+
+        }
+        article > aside{
+            background-color: rgb(19, 80, 19);
+            border-radius: 0px 0px 20px 10px;
+        }
+        article{
+            background-color: lightgreen;
+        }
+        footer > p{
+            margin:0px;
+        }
+        .macaco{
+            border-radius: 0px 0px 20px 10px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin-left: auto  ;
+            margin-top: 20px    ;
+            border-radius: 100% ;
+            margin-right: 20px  ;
+            box-shadow: 2px 3px 7px 2px black;  
+            text-align: center ;
+            color: black;
+            display: flex;
+        }
+        #bola > h1{
+            margin: auto ;
+            font-family: "OldLondon";
+            font-size: 6em;
+            text-shadow: 1px 1px 3px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Linki</a>
+            <a href="">Linki</a>
+            <a href="">Linki</a>
+            <a href="">Linki</a>
+            <a href="">Linki</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article class="macaco">
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sed, molestias autem aliquid laudantium eveniet aliquam, quae ut id nobis officiis adipisci odio vero qui expedita asperiores est ab omnis?</p>
+                <aside>
+                    Artigo escrito pelo autor
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Andrigo é lindo de mais
+        </p>
+    </footer>
+    <div id="bola">
+        <h1>A</h1>
+    </div>
+</body>
+</html>

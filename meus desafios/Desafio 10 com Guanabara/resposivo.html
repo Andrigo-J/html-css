@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /* Largura minima ocupada pelo site*/
+            max-width: 800px; /* Largura maxima ocupada pelo site*/
+            margin: auto;
+
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Resposividade</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum obcaecati, saepe accusantium rerum natus corporis nihil iure, maiores consequuntur expedita ipsa pariatur ducimus sint illo fugit eius provident hic iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, molestiae laboriosam facere, accusantium dolores voluptates eligendi voluptas excepturi, libero fuga expedita! Nesciunt velit reprehenderit dolores libero delectus error laborum unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maxime tempora eius vel alias obcaecati possimus id, totam minus ea quam, ex dolor fugiat placeat ullam ipsum consectetur facere facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla temporibus, debitis amet dolorem nisi voluptatem, eos exercitationem similique, impedit cum ab corrupti at provident! Nihil, animi. Distinctio, eum illum.
+        </p>
+
+        <picture> <!--Serve para ajusatar a resposividade do site utilizando imagens diferente
+                      Por exemplo: Se a tela passar da largura minima de 600px, vai ser carregado uma outra imagem,
+                      ou se a tela acabar ficando maior que uma largura maxima de tantos pixels, vai carrar uma outra imagem--->
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina blok">
+        </picture>
+    
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum obcaecati, saepe accusantium rerum natus corporis nihil iure, maiores consequuntur expedita ipsa pariatur ducimus sint illo fugit eius provident hic iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, molestiae laboriosam facere, accusantium dolores voluptates eligendi voluptas excepturi, libero fuga expedita! Nesciunt velit reprehenderit dolores libero delectus error laborum unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maxime tempora eius vel alias obcaecati possimus id, totam minus ea quam, ex dolor fugiat placeat ullam ipsum consectetur facere facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla temporibus, debitis amet dolorem nisi voluptatem, eos exercitationem similique, impedit cum ab corrupti at provident! Nihil, animi. Distinctio, eum illum.
+        </p>
+    </main>
+</body>
+</html>
